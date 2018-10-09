@@ -144,55 +144,8 @@ public class Main {
 				break;
 			}
 	
-		}while(respuesta != 0);
-		
-		
-		
-		
-		
-		
-		
-		/*
-		Color color = new Color(100f, 150f, 200f);  // Combinación de colores principales para un color.
-		Point point = new Point(23.3f, 45.4f);  // Coordenada establecida de una posicion
-		
-		
-		System.out.println("CIRCULO");
-		Circle circulo = new Circle();  // Creo un circulo
-		circulo.setColor(color);  // Se le asigna un color
-		circulo.setOrigen(point);  // Se le asigna una posicion
-		
-		circulo.setRadius(6);  // se agina el radio del circulo
-		
-		System.out.println("Perimetro: " + circulo.perimetro() + // se muestra el calculo del perimetro
-						   "\nArea: " + circulo.area());  // se muestra el calculo del area
-		
-		System.out.println("\nCombinacion de color");
-		circulo.detalleColor();  //Aqui los detalles del color y de la posicion.
-		
-		System.out.println("\nUbicacion del circulo");
-		circulo.detalleCoordenada();  //Aqui los detalles de la posicion.
-		
-		
-		System.out.println("---------------------------------------------------");
-		System.out.println("RECTANGULO");
-		Rectangle rectangulo = new Rectangle();
-		rectangulo.setColor(color);
-		rectangulo.setOrigen(point);
-		
-		rectangulo.setHW(4, 8);  // Se asigna el valor del alto y ancho.
-		
-		System.out.println("Perimetro: " + rectangulo.perimetro() + // se muestra el calculo del perimetro
-				   		   "\nArea: " + rectangulo.area());  // se muestra el calculo del area
-		
-		
-		System.out.println("\nCombinacion de color");
-		rectangulo.detalleColor();  //Aqui los detalles del color y de la posicion.
-		
-		System.out.println("\nUbicacion del circulo");
-		rectangulo.detalleCoordenada();  //Aqui los detalles de la posicion.
-		*/
-		
+		}while(respuesta != 0);		
+
 	}
 }
 
@@ -209,4 +162,16 @@ En el diagrama - significa private, + significa público mientras que # protected
 En la clase main debe probar los métodos que ha hecho. En concreto:
 Debe crear:
 un círculo y un rectángulo y mostrar de ambos su área, su perímetro, la posición donde se encuentra (Point) y el color que tienen.
+
+
+
+A2.3 - Shape: Circle & Rectángulo (2)
+En el ejercicio de la actividad anterior.
+
+1 [] Compruebe que pasaría si la clase Shape fuera final
+2 [] Los constructores de Shape deben ser protected? ¿Qué pasa si no lo son?
+3 [] Para cada campo, indique qué control de acceso tiene.
+
+
+
 */

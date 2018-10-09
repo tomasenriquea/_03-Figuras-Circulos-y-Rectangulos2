@@ -8,7 +8,7 @@ public class Shape {  // Forma o figura
 	
 	
 	//CONSTRUCTORES
-	protected Shape() {
+	protected Shape() { // Constructor con modificado protegido, funciona con normalidad
 		color = null;
 		origen = null;
 	} 
